@@ -862,6 +862,10 @@ video {
     width: 75%;
   }
 
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .md\:gap-8 {
     gap: 2rem;
   }
