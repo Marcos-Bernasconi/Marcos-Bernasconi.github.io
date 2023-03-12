@@ -947,6 +947,38 @@ a {
     max-width: 42rem;
   }
 
+  .\32xl\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .\32xl\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .\32xl\:max-w-3xl {
+    max-width: 48rem;
+  }
+
+  .\32xl\:max-w-\[30rem\] {
+    max-width: 30rem;
+  }
+
+  .\32xl\:max-w-\[35rem\] {
+    max-width: 35rem;
+  }
+
+  .\32xl\:max-w-\[40rem\] {
+    max-width: 40rem;
+  }
+
+  .\32xl\:max-w-\[45rem\] {
+    max-width: 45rem;
+  }
+
+  .\32xl\:max-w-\[47rem\] {
+    max-width: 47rem;
+  }
+
   .\32xl\:p-2 {
     padding: 0.5rem;
   }
