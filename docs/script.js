@@ -1,5 +1,5 @@
 new Glide(".glide", {
   type: "carousel",
-  swipeThreshold: 150,
+  swipeThreshold: 80,
   touchAngle: 30,
 }).mount();
