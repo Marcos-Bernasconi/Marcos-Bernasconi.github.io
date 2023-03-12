@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,8 +31,12 @@
         <li class="mr-auto cursor-pointer text-xl font-semibold text-white">
           Marcos Bernasconi
         </li>
-        <li class="cursor-pointer text-lg text-white">Projects</li>
-        <li class="cursor-pointer text-lg text-white">Resume</li>
+        <li class="cursor-pointer text-lg text-white">
+          <a href="#projects"> Projects </a>
+        </li>
+        <li class="cursor-pointer text-lg text-white">
+          <a href="#resume"> Resume</a>
+        </li>
         <li
           class="cursor-text rounded-xl bg-neutral-800 py-3 px-6 text-lg text-white"
         >
@@ -63,13 +67,15 @@
         </p>
       </div>
       <div class="mx-auto mt-12 flex w-fit items-start gap-2 sm:gap-8">
-        <button
+        <a
+          href="#projects"
           type="button"
           class="whitespace-nowrap rounded-2xl bg-sky-500 px-6 py-4 text-lg font-bold text-white"
         >
           View my projects
-        </button>
-        <button
+        </a>
+        <a
+          href="#resume"
           type="button"
           class="whitespace-nowrap rounded-2xl bg-neutral-700 px-6 py-4 text-lg font-bold text-white"
         >
@@ -86,7 +92,7 @@
               d="M11 5v11.17l-4.88-4.88c-.39-.39-1.03-.39-1.42 0a.996.996 0 0 0 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0l6.59-6.59a.996.996 0 1 0-1.41-1.41L13 16.17V5c0-.55-.45-1-1-1s-1 .45-1 1z"
             />
           </svg>
-        </button>
+        </a>
       </div>
 
       <!-- Logos -->
@@ -411,7 +417,8 @@
     </div>
     <!-- projectSection -->
     <div
-      class="mt-20 flex rounded-3xl bg-neutral-800 sm:mx-auto sm:w-2/3 lg:w-11/12 lg:max-w-6xl 2xl:mt-28"
+      id="projects"
+      class="mt-20 flex scroll-mt-20 rounded-3xl bg-neutral-800 sm:mx-auto sm:w-2/3 lg:w-11/12 lg:max-w-6xl 2xl:mt-28"
     >
       <div class="glide">
         <div class="glide__track" data-glide-el="track">
@@ -586,7 +593,10 @@
       </div>
     </div>
     <!-- resumeSection -->
-    <div class="mt-20 overflow-hidden bg-neutral-800 lg:flex 2xl:mt-28">
+    <div
+      id="resume"
+      class="mt-20 scroll-mt-20 overflow-hidden bg-neutral-800 lg:flex 2xl:mt-28"
+    >
       <div
         class="mx-8 py-8 sm:mx-auto sm:w-6/12 lg:flex-none lg:pl-20 2xl:w-5/12 2xl:pl-60"
       >
