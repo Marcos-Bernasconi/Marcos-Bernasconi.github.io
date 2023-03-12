@@ -16,14 +16,20 @@
     class="w-screen overflow-x-hidden bg-neutral-900 2xl:mx-auto 2xl:max-w-[1920px]"
   >
     <!-- navSection -->
-    <nav class="hidden lg:block">
-      <ul class="mx-auto mt-14 flex w-4/5 justify-end space-x-28">
+    <nav
+      class="sticky top-0 z-10 hidden bg-neutral-900 bg-opacity-80 backdrop-blur-md lg:block"
+    >
+      <ul class="mx-auto flex w-4/5 items-center justify-end space-x-28 py-5">
         <li class="mr-auto cursor-pointer text-xl font-semibold text-white">
           Bernasconi Marcos
         </li>
         <li class="cursor-pointer text-lg text-white">Projects</li>
         <li class="cursor-pointer text-lg text-white">Resume</li>
-        <li class="cursor-pointer text-lg text-white">xb3rna@gmail.com</li>
+        <li
+          class="cursor-text rounded-xl bg-neutral-800 py-3 px-6 text-lg text-white"
+        >
+          xb3rna@gmail.com
+        </li>
       </ul>
     </nav>
     <!-- heroSection -->
